@@ -49,9 +49,8 @@ jobs:
             Library-build-
             Library-
 
-      - uses: game-ci/unity-test-runner@v2
+      - uses: webbertakken/unity-builder@v2
         with:
-          unityVersion: 2021.2.19f1      
           targetPlatform: Android
           androidAppBundle: true
           androidKeystoreName: "Thenabilkarim"
