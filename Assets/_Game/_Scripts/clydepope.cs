@@ -116,8 +116,9 @@ public class clydepope : MonoBehaviour, IUnityAdsInitializationListener, IUnityA
         LoadApplovin();
         InitializeAdsUnity();
         LoadAdUnity();
-        
-       
+        LoadInterstitialfb();
+
+
     }
 
 
