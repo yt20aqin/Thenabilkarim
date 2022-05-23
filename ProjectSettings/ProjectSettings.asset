@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: MycoloringBetoBely
-  productName: BelyyBetoColorear
+  companyName: plimplimcolorear
+  productName: juegosplimplim
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -129,7 +129,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.4
+  bundleVersion: 1.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -148,7 +148,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.MycoloringBetoBely.BelyyBetoColorear
+    Android: com.plimplimcolorear.juegosplimplim
     Standalone: com.northpick.coloringbookl
     Tizen: biz.labhand.happyvillage
     iPhone: com.digismile.happyvillage
@@ -158,7 +158,7 @@ PlayerSettings:
     iPhone: 204
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
-  AndroidBundleVersionCode: 211
+  AndroidBundleVersionCode: 201
   AndroidMinSdkVersion: 19
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -929,7 +929,7 @@ PlayerSettings:
     Purchasing: 0
     UDP: 0
     UNet: 1
-    Unity Ads: 0
+    Unity Ads: 1
     Unity_Ads: 0
   luminIcon:
     m_Name: 
@@ -944,10 +944,10 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: ca9b37d3-a2d9-4213-82fe-4df5d4715f5e
+  cloudProjectId: a32e1e67-f44c-4e6b-af5a-ecaf6ce078c7
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: bely2
+  projectName: plim
   organizationId: yt20aqin
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
