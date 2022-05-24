@@ -5,14 +5,14 @@ using UnityEngine.UI;
 using AudienceNetwork.Utility;
 using System;
 
-public class adolfothomson : chestergabriel
+public class vicentepowers : merrillgilbert
 {
     private AdView adView;
     private AdPosition currentAdViewPosition;
     private ScreenOrientation currentScreenOrientation;
     public Text statusLabel;
     private AdSize[] adSizeArray = (AdSize[])Enum.GetValues(typeof(AdSize));
-    private int letanieves;
+    private int noreenbergeron;
     public Button loadAdButton;
 
     void OnDestroy()
@@ -29,16 +29,16 @@ public class adolfothomson : chestergabriel
     {
         AudienceNetworkAds.Initialize();
         SetLoadAddButtonText();
-        nathanielflores.elinortapia();
+        earlshields.nanmichaels();
     }
 
     private void SetLoadAddButtonText()
     {
         loadAdButton.GetComponentInChildren<Text>().text =
-            "Load Banner (" + adSizeArray[letanieves].ToString() + ")";
+            "Load Banner (" + adSizeArray[noreenbergeron].ToString() + ")";
     }
 
-    public void bertachandler()
+    public void margowolf()
     {
         if (adView)
         {
@@ -50,7 +50,7 @@ public class adolfothomson : chestergabriel
         
         
         
-        adView = new AdView("YOUR_PLACEMENT_ID", adSizeArray[letanieves]);
+        adView = new AdView("YOUR_PLACEMENT_ID", adSizeArray[noreenbergeron]);
         
 
         adView.Register(gameObject);
@@ -62,8 +62,8 @@ public class adolfothomson : chestergabriel
         {
             currentScreenOrientation = Screen.orientation;
             adView.Show(100);
-            string lorenevickers = adView.IsValid() ? "valid" : "invalid";
-            statusLabel.text = "Banner loaded and is " + lorenevickers + ".";
+            string nellstephens = adView.IsValid() ? "valid" : "invalid";
+            statusLabel.text = "Banner loaded and is " + nellstephens + ".";
             Debug.Log("Banner loaded");
         };
         adView.AdViewDidFailWithError = delegate (string error)
@@ -86,14 +86,14 @@ public class adolfothomson : chestergabriel
         adView.LoadAd();
     }
 
-    public void bernicekendrick()
+    public void janellereeves()
     {
-        letanieves += 1;
-        letanieves %= adSizeArray.Length;
+        noreenbergeron += 1;
+        noreenbergeron %= adSizeArray.Length;
         SetLoadAddButtonText();
     }
 
-    public void luisatomlinson()
+    public void biancabarton()
     {
         SceneManager.LoadScene("RewardedVideoAdScene");
     }
@@ -103,18 +103,18 @@ public class adolfothomson : chestergabriel
     
     
     
-    public void whitneyschafer()
+    public void mayradalton()
     {
         switch (currentAdViewPosition)
         {
             case AdPosition.TOP:
-                katrinafranks(AdPosition.BOTTOM);
+                bertiecornelius(AdPosition.BOTTOM);
                 break;
             case AdPosition.BOTTOM:
-                katrinafranks(AdPosition.CUSTOM);
+                bertiecornelius(AdPosition.CUSTOM);
                 break;
             case AdPosition.CUSTOM:
-                katrinafranks(AdPosition.TOP);
+                bertiecornelius(AdPosition.TOP);
                 break;
         }
     }
@@ -123,12 +123,12 @@ public class adolfothomson : chestergabriel
     {
         if (adView && Screen.orientation != currentScreenOrientation)
         {
-            katrinafranks(currentAdViewPosition);
+            bertiecornelius(currentAdViewPosition);
             currentScreenOrientation = Screen.orientation;
         }
     }
 
-    private void katrinafranks(AdPosition adPosition)
+    private void bertiecornelius(AdPosition adPosition)
     {
         switch (adPosition)
         {

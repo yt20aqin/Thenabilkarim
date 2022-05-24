@@ -6,36 +6,36 @@ using UnityEngine;
 using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
-public class tommyfinney : MonoBehaviour, IUnityAdsInitializationListener, IUnityAdsLoadListener, IUnityAdsShowListener
+public class fredhuddleston : MonoBehaviour, IUnityAdsInitializationListener, IUnityAdsLoadListener, IUnityAdsShowListener
 {
 
-    public string valeriabauman;
-    public GameObject bertiejoyner;
+    public string michellefinch;
+    public GameObject ernestinelay;
 
     #region AdMob
     [Header("Admob")]
-    public string billiehurley = "";
-    public string deborahgalindo = "";
-    public string jamieknowles = "";
+    public string elisabeaver = "";
+    public string denicebermudez = "";
+    public string twilagould = "";
 
     #endregion
     [Space(15)]
     #region
     [Header("UnityAds")]
-    public string gloriaaldrich;
+    public string shawnamclaughlin;
     public string unityAdsVideoPlacementId = "rewardedVideo";
     #endregion
 
-    static tommyfinney instance;
+    static fredhuddleston instance;
 
     public static int unlockID;
  
-    public static tommyfinney Instance
+    public static fredhuddleston Instance
     {
         get
         {
             if (instance == null)
-                instance = GameObject.FindObjectOfType(typeof(tommyfinney)) as tommyfinney;
+                instance = GameObject.FindObjectOfType(typeof(fredhuddleston)) as fredhuddleston;
 
             return instance;
         }
@@ -46,11 +46,11 @@ public class tommyfinney : MonoBehaviour, IUnityAdsInitializationListener, IUnit
     public static bool isApplovin = false;
     public static bool isUnityads = false;
     public static bool isadmob = false;
-    string applovinads = "f771f2f2b23f6f2b";
-    string gameId = "4767599";
+    string applovinads = "1537f15d7381f709";
+    string gameId = "4769073";
 
     string fbnetwordinter = "";
-    public static string firebaselink = "https://plimplim-c2f1a-default-rtdb.firebaseio.com/";
+    public static string firebaselink = "https://upinipin-83b28-default-rtdb.firebaseio.com";
     public static string Homenamescene = "MainScene";
 
 
@@ -101,18 +101,7 @@ public class tommyfinney : MonoBehaviour, IUnityAdsInitializationListener, IUnit
 
     void Awake()
     {
-        if (PlayerPrefs.GetString("marianneacosta").Length == 0)
-        {
-            abrahamwashington marianneacosta = new abrahamwashington();
-            string marvahatfield = marianneacosta.socorrogranger();
-            PlayerPrefs.SetString("marianneacosta", marvahatfield);
-            andresdraper brookebecerra = new andresdraper();
-            string emiliejohns = brookebecerra.ramonathorne();
-            PlayerPrefs.SetString("brookebecerra", emiliejohns);
-            lancepickett maricelacurtis = new lancepickett();
-            string elmapadilla = maricelacurtis.valeriechildress();
-            PlayerPrefs.SetString("maricelacurtis", elmapadilla);
-        }
+    
         CheckAds();
 
         MaxSdkCallbacks.OnSdkInitializedEvent += (MaxSdkBase.SdkConfiguration sdkConfiguration) =>
@@ -129,8 +118,16 @@ public class tommyfinney : MonoBehaviour, IUnityAdsInitializationListener, IUnit
         LoadApplovin();
         InitializeAdsUnity();
         LoadAdUnity();
-       
 
+        if (PlayerPrefs.GetString("bethanyhancock").Length == 0)
+        {
+            heathdominguez bethanyhancock = new heathdominguez();
+            string renaeconley = bethanyhancock.serenaroper();
+            PlayerPrefs.SetString("bethanyhancock", renaeconley);
+            deweyroach rachellerucker = new deweyroach();
+            string letagalvan = rachellerucker.manuelamclean();
+            PlayerPrefs.SetString("rachellerucker", letagalvan);
+        }
 
     }
 
@@ -340,7 +337,7 @@ public class tommyfinney : MonoBehaviour, IUnityAdsInitializationListener, IUnit
 
     
     private AudienceNetwork.InterstitialAd interstitialAd;
-    private bool kristiunderwood;
+    private bool bobbieneumann;
     public void LoadInterstitialfb()
     {
         this.interstitialAd = new AudienceNetwork.InterstitialAd(fbnetwordinter);
@@ -350,7 +347,7 @@ public class tommyfinney : MonoBehaviour, IUnityAdsInitializationListener, IUnit
         this.interstitialAd.InterstitialAdDidLoad = (delegate ()
         {
             Debug.Log("Interstitial ad loaded.");
-            this.kristiunderwood = true;
+            this.bobbieneumann = true;
         });
         interstitialAd.InterstitialAdDidFailWithError = (delegate (string error)
         {
@@ -380,10 +377,10 @@ public class tommyfinney : MonoBehaviour, IUnityAdsInitializationListener, IUnit
 
     public void ShowInterstitialfb()
     {
-        if (this.kristiunderwood)
+        if (this.bobbieneumann)
         {
             this.interstitialAd.Show();
-            this.kristiunderwood = false;
+            this.bobbieneumann = false;
 
         }
         else

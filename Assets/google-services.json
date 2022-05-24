@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "264437608770",
-    "project_id": "plimplim-c2f1a",
-    "storage_bucket": "plimplim-c2f1a.appspot.com"
+    "project_number": "490762847991",
+    "project_id": "upinipin-83b28",
+    "storage_bucket": "upinipin-83b28.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:264437608770:android:693c67c58b5f9e35a718db",
+        "mobilesdk_app_id": "1:490762847991:android:f39f193e7f162d09d175f2",
         "android_client_info": {
-          "package_name": "com.plimplimcolorear.juegosplimplim"
+          "package_name": "com.Mewarnaicoloring.UpinIpin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "264437608770-4uqhagcmthkdmrafaufnmk69nbot30ea.apps.googleusercontent.com",
+          "client_id": "490762847991-m2qa36g1q1ju4r241vbf0upevj141etf.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCOvaKkubeLSOQbQwXIEYVH_pk7pF76QmY"
+          "current_key": "AIzaSyAV1q1HRO8dHbaMekIJ6yP2OZgMjNJjIqI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "264437608770-4uqhagcmthkdmrafaufnmk69nbot30ea.apps.googleusercontent.com",
+              "client_id": "490762847991-m2qa36g1q1ju4r241vbf0upevj141etf.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
