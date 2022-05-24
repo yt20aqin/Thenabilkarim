@@ -4,13 +4,13 @@ using AudienceNetwork;
 using UnityEngine.SceneManagement;
 using AudienceNetwork.Utility;
 
-public class samharris : merrillgilbert
+public class jamalwatkins : zacharycooley
 {
 
     private InterstitialAd interstitialAd;
-    private bool bobbieneumann;
+    private bool valeriefinn;
 #pragma warning disable 0414
-    private bool melvablair;
+    private bool inastuart;
 #pragma warning restore 0414
     
     public Text statusLabel;
@@ -18,7 +18,7 @@ public class samharris : merrillgilbert
     private void Awake()
     {
         AudienceNetworkAds.Initialize();
-        earlshields.nanmichaels();
+        bertvasquez.amaliagalloway();
     }
 
     
@@ -36,10 +36,10 @@ public class samharris : merrillgilbert
         interstitialAd.InterstitialAdDidLoad = delegate ()
         {
             Debug.Log("Interstitial ad loaded.");
-            bobbieneumann = true;
-            melvablair = false;
-            string nellstephens = interstitialAd.IsValid() ? "valid" : "invalid";
-            statusLabel.text = "Ad loaded and is " + nellstephens + ". Click show to present!";
+            valeriefinn = true;
+            inastuart = false;
+            string katyaquino = interstitialAd.IsValid() ? "valid" : "invalid";
+            statusLabel.text = "Ad loaded and is " + katyaquino + ". Click show to present!";
         };
         interstitialAd.InterstitialAdDidFailWithError = delegate (string error)
         {
@@ -57,7 +57,7 @@ public class samharris : merrillgilbert
         interstitialAd.InterstitialAdDidClose = delegate ()
         {
             Debug.Log("Interstitial ad did close.");
-            melvablair = true;
+            inastuart = true;
             if (interstitialAd != null)
             {
                 interstitialAd.Dispose();
@@ -73,7 +73,7 @@ public class samharris : merrillgilbert
          * background and is then relaunched by tapping the icon.
          */
         interstitialAd.interstitialAdActivityDestroyed = delegate() {
-            if (!melvablair) {
+            if (!inastuart) {
                 Debug.Log("Interstitial activity destroyed without being closed first.");
                 Debug.Log("Game should resume.");
             }
@@ -87,10 +87,10 @@ public class samharris : merrillgilbert
     
     public void ShowInterstitial()
     {
-        if (bobbieneumann)
+        if (valeriefinn)
         {
             interstitialAd.Show();
-            bobbieneumann = false;
+            valeriefinn = false;
             statusLabel.text = "";
         }
         else
@@ -110,7 +110,7 @@ public class samharris : merrillgilbert
     }
 
     
-    public void biancabarton()
+    public void aileenshepard()
     {
         SceneManager.LoadScene("AdViewScene");
     }

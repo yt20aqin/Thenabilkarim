@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class rustygamble : MonoBehaviour
+public class xavieraguirre : MonoBehaviour
 {
     public AudioClip clickSound, cameraSound;
 
-    public static rustygamble USE;
+    public static xavieraguirre USE;
 
-    private AudioSource rociorussell;
+    private AudioSource hildakirk;
 
     private void Awake()
     {
@@ -16,9 +16,9 @@ public class rustygamble : MonoBehaviour
             USE = this;
             DontDestroyOnLoad(gameObject);
 
-            rociorussell = transform.GetChild(0).GetComponent<AudioSource>();
+            hildakirk = transform.GetChild(0).GetComponent<AudioSource>();
 
-            lucyhaynes();
+            esperanzabrand();
         }
         else
         {
@@ -26,13 +26,13 @@ public class rustygamble : MonoBehaviour
         }
     }
 
-    private void lucyhaynes()
+    private void esperanzabrand()
     {
         
         AudioListener.volume = PlayerPrefs.GetInt("MusicSetting", 1);
     }
 
-    public void lucillemedeiros()
+    public void molliekiser()
     {
         AudioListener.volume = AudioListener.volume == 1 ? 0 : 1;
 
@@ -40,8 +40,8 @@ public class rustygamble : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    public void rosalindanorwood(AudioClip clip)
+    public void elainemelendez(AudioClip clip)
     {
-        rociorussell.PlayOneShot(clip);
+        hildakirk.PlayOneShot(clip);
     }
 }

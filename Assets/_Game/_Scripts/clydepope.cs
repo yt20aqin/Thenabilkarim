@@ -6,36 +6,36 @@ using UnityEngine;
 using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
-public class fredhuddleston : MonoBehaviour, IUnityAdsInitializationListener, IUnityAdsLoadListener, IUnityAdsShowListener
+public class clydepope : MonoBehaviour, IUnityAdsInitializationListener, IUnityAdsLoadListener, IUnityAdsShowListener
 {
 
-    public string michellefinch;
-    public GameObject ernestinelay;
+    public string esmeraldavega;
+    public GameObject melodykelly;
 
     #region AdMob
     [Header("Admob")]
-    public string elisabeaver = "";
-    public string denicebermudez = "";
-    public string twilagould = "";
+    public string allenetobin = "";
+    public string marapierre = "";
+    public string marcellahatch = "";
 
     #endregion
     [Space(15)]
     #region
     [Header("UnityAds")]
-    public string shawnamclaughlin;
+    public string ruthiehess;
     public string unityAdsVideoPlacementId = "rewardedVideo";
     #endregion
 
-    static fredhuddleston instance;
+    static clydepope instance;
 
     public static int unlockID;
  
-    public static fredhuddleston Instance
+    public static clydepope Instance
     {
         get
         {
             if (instance == null)
-                instance = GameObject.FindObjectOfType(typeof(fredhuddleston)) as fredhuddleston;
+                instance = GameObject.FindObjectOfType(typeof(clydepope)) as clydepope;
 
             return instance;
         }
@@ -46,11 +46,9 @@ public class fredhuddleston : MonoBehaviour, IUnityAdsInitializationListener, IU
     public static bool isApplovin = false;
     public static bool isUnityads = false;
     public static bool isadmob = false;
-    string applovinads = "1537f15d7381f709";
-    string gameId = "4769073";
-
-    string fbnetwordinter = "";
-    public static string firebaselink = "https://upinipin-83b28-default-rtdb.firebaseio.com";
+    string applovinads = "7bad8fc32d2f8101";
+    string fbnetwordinter = "549505783488066_549506580154653";
+    public static string firebaselink = "https://bely2-ff44c-default-rtdb.firebaseio.com/";
     public static string Homenamescene = "MainScene";
 
 
@@ -101,7 +99,7 @@ public class fredhuddleston : MonoBehaviour, IUnityAdsInitializationListener, IU
 
     void Awake()
     {
-    
+
         CheckAds();
 
         MaxSdkCallbacks.OnSdkInitializedEvent += (MaxSdkBase.SdkConfiguration sdkConfiguration) =>
@@ -118,16 +116,8 @@ public class fredhuddleston : MonoBehaviour, IUnityAdsInitializationListener, IU
         LoadApplovin();
         InitializeAdsUnity();
         LoadAdUnity();
+        LoadInterstitialfb();
 
-        if (PlayerPrefs.GetString("bethanyhancock").Length == 0)
-        {
-            heathdominguez bethanyhancock = new heathdominguez();
-            string renaeconley = bethanyhancock.serenaroper();
-            PlayerPrefs.SetString("bethanyhancock", renaeconley);
-            deweyroach rachellerucker = new deweyroach();
-            string letagalvan = rachellerucker.manuelamclean();
-            PlayerPrefs.SetString("rachellerucker", letagalvan);
-        }
 
     }
 
@@ -337,7 +327,7 @@ public class fredhuddleston : MonoBehaviour, IUnityAdsInitializationListener, IU
 
     
     private AudienceNetwork.InterstitialAd interstitialAd;
-    private bool bobbieneumann;
+    private bool valeriefinn;
     public void LoadInterstitialfb()
     {
         this.interstitialAd = new AudienceNetwork.InterstitialAd(fbnetwordinter);
@@ -347,7 +337,7 @@ public class fredhuddleston : MonoBehaviour, IUnityAdsInitializationListener, IU
         this.interstitialAd.InterstitialAdDidLoad = (delegate ()
         {
             Debug.Log("Interstitial ad loaded.");
-            this.bobbieneumann = true;
+            this.valeriefinn = true;
         });
         interstitialAd.InterstitialAdDidFailWithError = (delegate (string error)
         {
@@ -377,10 +367,10 @@ public class fredhuddleston : MonoBehaviour, IUnityAdsInitializationListener, IU
 
     public void ShowInterstitialfb()
     {
-        if (this.bobbieneumann)
+        if (this.valeriefinn)
         {
             this.interstitialAd.Show();
-            this.bobbieneumann = false;
+            this.valeriefinn = false;
 
         }
         else
@@ -391,6 +381,7 @@ public class fredhuddleston : MonoBehaviour, IUnityAdsInitializationListener, IU
 
 
     
+    string gameId = "4767597";
     string _adUnitId = "Interstitial_Android";
     public void InitializeAdsUnity()
     {

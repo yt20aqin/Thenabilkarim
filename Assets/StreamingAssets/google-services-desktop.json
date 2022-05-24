@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "264437608770",
-    "project_id": "plimplim-c2f1a",
-    "storage_bucket": "plimplim-c2f1a.appspot.com"
+    "project_number": "597090314977",
+    "project_id": "bely2-ff44c",
+    "storage_bucket": "bely2-ff44c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:264437608770:android:693c67c58b5f9e35a718db",
+        "mobilesdk_app_id": "1:597090314977:android:d7f3288e8cf1ea0115a5a0",
         "android_client_info": {
-          "package_name": "com.plimplimcolorear.juegosplimplim"
+          "package_name": "com.MycoloringBetoBely.BelyyBetoColorear"
         }
       },
       "oauth_client": [
         {
-          "client_id": "264437608770-4uqhagcmthkdmrafaufnmk69nbot30ea.apps.googleusercontent.com",
+          "client_id": "597090314977-s2kaeff59bapg0ojmjll72eag58vnr0k.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCOvaKkubeLSOQbQwXIEYVH_pk7pF76QmY"
+          "current_key": "AIzaSyCujOYoN6X9a4ieWp4fFsBpTmZwcNqNodY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "264437608770-4uqhagcmthkdmrafaufnmk69nbot30ea.apps.googleusercontent.com",
+              "client_id": "597090314977-s2kaeff59bapg0ojmjll72eag58vnr0k.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
