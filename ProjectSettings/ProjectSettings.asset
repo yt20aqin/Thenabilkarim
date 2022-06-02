@@ -244,8 +244,8 @@ PlayerSettings:
   AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 2
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: user.keystore'
-  AndroidKeyaliasName: sqsq
+  AndroidKeystoreName: E:/APP PROJECT/Apps projects/Thenabilkarim/KEY-OUT/Thenabilkarim.keystore
+  AndroidKeyaliasName: thenabilkarim
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
