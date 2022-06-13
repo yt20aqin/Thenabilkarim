@@ -7,14 +7,14 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/_Game/_Scenes/Splash.unity
-    guid: cc459bfe6cc3f094ea825b37b5744d5d
-  - enabled: 1
-    path: Assets/_Game/_Scenes/MainScene.unity
-    guid: 946285f0755242679c19f7dd193cb4b8
+    guid: 4c5c7b9749344add957958ef781be776
   - enabled: 1
     path: Assets/_Game/_Scenes/PaintScene.unity
-    guid: 81bb2ccd1d5a40799d6506092f7aac7d
+    guid: 5f965e8b78534a97b047640c682bd0d5
   - enabled: 1
     path: Assets/_Game/_Scenes/NotiSc.unity
-    guid: 6c8b41b9fb73db74bbec6bc848a6936c
+    guid: 8ee052c25852484093777170885e793d
+  - enabled: 1
+    path: Assets/_Game/_Scenes/MainScene.unity
+    guid: 4b133dc7b8c2452d9b017d8b936c31fb
   m_configObjects: {}
