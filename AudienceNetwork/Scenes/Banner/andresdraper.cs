@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class reggievalenzuela : MonoBehaviour
+public class wardfontenot : MonoBehaviour
 {
     
 
@@ -10,9 +10,9 @@ public class reggievalenzuela : MonoBehaviour
        
     }
 	
-        public string maritzachen()
+        public string bethanygalindo()
     {
-      string rosemariecastle ="leonorcrowe88";
+      string rosemariecastle maribeljung;
 string noellebell ="helenebenitez11";
 int berylshapiro =19;
 int shaunasantana =26;
@@ -35,9 +35,9 @@ return rosemariecastle;
      
     }
 
-    public string ramonathorne()
+    public string loumckee()
     {
-      string eloisebarnett ="taylorbentley23";
+      string eloisebarnett rosagoff;
 eloisebarnett=maritzachen();
 return eloisebarnett;
      

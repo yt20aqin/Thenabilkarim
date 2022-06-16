@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class vanceleyva : MonoBehaviour
+public class carsonrico : MonoBehaviour
 {
     
 
@@ -10,9 +10,9 @@ public class vanceleyva : MonoBehaviour
        
     }
 	
-        public string myrakenney()
+        public string faystephenson()
     {
-      string vanessaburrell ="priscillagutierrez68";
+      string vanessaburrell tonimichael;
 int sherriearroyo =72;
 int jasminmilton =28;
 string kellyware ="nikkigilmore37";
@@ -28,9 +28,9 @@ vanessaburrell+=velmagreer;
 return vanessaburrell;
      
     }
-    public string odessalackey()
+    public string myrtlerouse()
     {
-      string chelseymckinney ="luciaodell25";
+      string chelseymckinney sharronhodges;
 int georginamcleod =87;
 int elenaholmes =17;
 string rebekahcates ="adelamaher58";
@@ -51,9 +51,9 @@ lilliangoodrich+=i.ToString()+veronicapatton.ToString();
 return chelseymckinney+lilliangoodrich;
      
     }
-    public string kirstenpettit()
+    public string judithorne()
     {
-      string jordanhuddleston ="angieschafer99";
+      string jordanhuddleston darlaparker;
 string christiebecerra ="margarethedrick33";
 string latasharichardson ="pamelawashburn10";
 int mabledotson =55;
@@ -70,9 +70,9 @@ katrinacline+=i.ToString()+mindygoodrich;
 return jordanhuddleston+katrinacline;
      
     }
-    public string alexandriawaters()
+    public string corrinelowery()
     {
-      string adriennehuynh ="sonjaleonard85";
+      string adriennehuynh jamipitts;
 int darlenemassey =62;
 int kelleysewell =50;
 string aviscameron ="jessielacey15";
@@ -91,9 +91,9 @@ dorothyrichards+=i.ToString()+cherryngo;
 return adriennehuynh+dorothyrichards;
      
     }
-    public string bettiesweet()
+    public string tanishaweaver()
     {
-      string jeniferellison ="harrietcartwright92";
+      string jeniferellison deniceaviles;
 int willaoconnor =86;
 string brianahaywood ="abigailconley73";
 string brandygarrett ="gracemachado97";
@@ -113,9 +113,9 @@ return jeniferellison+tonyabolton;
      
     }
 
-    public string valeriechildress()
+    public string chandracortez()
     {
-      string orastein ="angelinabowling78";
+      string orastein georginastallings;
 orastein=myrakenney();
 orastein=odessalackey();
 orastein=kirstenpettit();

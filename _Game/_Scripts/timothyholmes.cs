@@ -3,17 +3,17 @@ using System.Collections;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class bennyhorne : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler
+public class grantbarnhart : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerClickHandler
 {
-    public bool altacorrea = false;
+    public bool lilliestover = false;
     [System.Serializable]
-    public class morrisspaulding : UnityEvent { }
+    public class jonmoon : UnityEvent { }
     [SerializeField]
-    private morrisspaulding myOwnEvent = new grantwinn();
-    public morrisspaulding onMyOwnEvent { get { return myOwnEvent; } set { myOwnEvent = value; } }
+    private jonmoon myOwnEvent = new grantwinn();
+    public jonmoon onMyOwnEvent { get { return myOwnEvent; } set { myOwnEvent = value; } }
 
-    private float currentScale = 1f, jasminevaughan = 1f;
-    private Vector3 startPosition, leahclements;
+    private float currentScale = 1f, marjoriegibbons = 1f;
+    private Vector3 startPosition, mistycowan;
 
     private void Awake()
     {
@@ -22,7 +22,7 @@ public class bennyhorne : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (altacorrea)
+        if (lilliestover)
         {
             transform.localScale = Vector3.one * (currentScale - (currentScale * 0.1f));
         }
@@ -30,7 +30,7 @@ public class bennyhorne : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
 
     public void OnPointerUp(PointerEventData pointerEventData)
     {
-        if (altacorrea)
+        if (lilliestover)
         {
             transform.localScale = Vector3.one * currentScale;
         }
@@ -42,33 +42,33 @@ public class bennyhorne : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
         onMyOwnEvent.Invoke();
     }
 
-    private IEnumerator rondasteele()
+    private IEnumerator carolebass()
     {
-        yield return estherstallings(transform, transform.localPosition, leahclements, jasminevaughan);
+        yield return estherstallings(transform, transform.localPosition, mistycowan, marjoriegibbons);
     }
 
     private IEnumerator estherstallings(Transform thisTransform, Vector3 startPos, Vector3 endPos, float value)
     {
-        float mollielevin = 1.0f / value;
-        float ursularobles = 0.0f;
-        while (ursularobles < 1.0)
+        float darlafigueroa = 1.0f / value;
+        float orawilcox = 0.0f;
+        while (orawilcox < 1.0)
         {
-            ursularobles += Time.deltaTime * mollielevin;
-            thisTransform.localPosition = Vector3.Lerp(startPos, endPos, Mathf.SmoothStep(0.0f, 1.0f, ursularobles));
+            orawilcox += Time.deltaTime * darlafigueroa;
+            thisTransform.localPosition = Vector3.Lerp(startPos, endPos, Mathf.SmoothStep(0.0f, 1.0f, orawilcox));
             yield return null;
         }
 
-        thisTransform.localPosition = leahclements;
+        thisTransform.localPosition = mistycowan;
     }
 
     public void StartMyMoveAction(Vector3 SPos, Vector3 EPos, float MTime)
     {
         transform.localPosition = SPos;
         startPosition = SPos;
-        leahclements = EPos;
+        mistycowan = EPos;
 
-        jasminevaughan = MTime;
+        marjoriegibbons = MTime;
 
-        StartCoroutine(rondasteele());
+        StartCoroutine(carolebass());
     }
 }

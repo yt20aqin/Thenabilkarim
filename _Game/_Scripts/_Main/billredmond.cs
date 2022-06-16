@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class antoniomichael : MonoBehaviour
+public class hiramnolan : MonoBehaviour
 {
     public AudioClip clickSound, cameraSound;
 
-    public static antoniomichael USE;
+    public static hiramnolan USE;
 
-    private AudioSource lupepollard;
+    private AudioSource sheilabarlow;
 
     private void Awake()
     {
@@ -16,9 +16,9 @@ public class antoniomichael : MonoBehaviour
             USE = this;
             DontDestroyOnLoad(gameObject);
 
-            lupepollard = transform.GetChild(0).GetComponent<AudioSource>();
+            sheilabarlow = transform.GetChild(0).GetComponent<AudioSource>();
 
-            ivatalley();
+            karinaswenson();
         }
         else
         {
@@ -26,13 +26,13 @@ public class antoniomichael : MonoBehaviour
         }
     }
 
-    private void ivatalley()
+    private void karinaswenson()
     {
         
         AudioListener.volume = PlayerPrefs.GetInt("MusicSetting", 1);
     }
 
-    public void reginapierson()
+    public void serenacurtis()
     {
         AudioListener.volume = AudioListener.volume == 1 ? 0 : 1;
 
@@ -40,8 +40,8 @@ public class antoniomichael : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    public void michaelshafer(AudioClip clip)
+    public void nikkigregg(AudioClip clip)
     {
-        lupepollard.PlayOneShot(clip);
+        sheilabarlow.PlayOneShot(clip);
     }
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class wadeoneil : MonoBehaviour
+public class willardgill : MonoBehaviour
 {
     
 
@@ -10,9 +10,9 @@ public class wadeoneil : MonoBehaviour
        
     }
 	
-        public string ermaadkins()
+        public string tonityson()
     {
-      string clareleyva ="mauraoneal66";
+      string clareleyva hillarybolton;
 int tammiehartman =94;
 string rosieware ="kellypryor83";
 string carlenekirkpatrick ="inesfernandez24";
@@ -28,9 +28,9 @@ clareleyva+=joycestratton;
 return clareleyva;
      
     }
-    public string shannatemple()
+    public string bessielutz()
     {
-      string alisonkrueger ="katelynkaplan77";
+      string alisonkrueger diannjordan;
 string alisapack ="evacastle42";
 string ameliahoward ="nikkiwhite16";
 alisonkrueger+=alisapack;
@@ -45,9 +45,9 @@ franlandis+=i.ToString()+aureliamcclure.ToString();
 return alisonkrueger+franlandis;
      
     }
-    public string edythestratton()
+    public string ebonyroberts()
     {
-      string enidgilliam ="amparokyle29";
+      string enidgilliam marquitajoyce;
 int annalyons =22;
 int eugeniareynolds =48;
 string sheliadowns ="lethaclayton47";
@@ -63,9 +63,9 @@ enidgilliam+=jopiper;
 return enidgilliam;
      
     }
-    public string inezdavenport()
+    public string larabeatty()
     {
-      string noreenstaley ="winnieburrows12";
+      string noreenstaley charitywhitfield;
 int margueritecase =64;
 int heatherkiser =53;
 string idakowalski ="gwenstreet27";
@@ -82,9 +82,9 @@ return noreenstaley;
      
     }
 
-    public string socorrogranger()
+    public string raqueldodson()
     {
-      string beatrizsutherland ="fernjorgensen13";
+      string beatrizsutherland angelinapolk;
 beatrizsutherland=ermaadkins();
 beatrizsutherland=shannatemple();
 beatrizsutherland=edythestratton();

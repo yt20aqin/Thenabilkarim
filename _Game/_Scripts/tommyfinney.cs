@@ -6,36 +6,36 @@ using UnityEngine;
 using UnityEngine.Advertisements;
 using UnityEngine.UI;
 
-public class russellhurtado : MonoBehaviour, IUnityAdsInitializationListener, IUnityAdsLoadListener, IUnityAdsShowListener
+public class denvergibson : MonoBehaviour, IUnityAdsInitializationListener, IUnityAdsLoadListener, IUnityAdsShowListener
 {
 
-    public string valeriabauman;
-    public GameObject bertiejoyner;
+    public string brandiesampson;
+    public GameObject cathleenkaiser;
 
     #region AdMob
     [Header("Admob")]
-    public string billiehurley = "";
-    public string deborahgalindo = "";
-    public string jamieknowles = "";
+    public string fannycoleman = "";
+    public string maryannmejia = "";
+    public string kristinwilliams = "";
 
     #endregion
     [Space(15)]
     #region
     [Header("UnityAds")]
-    public string gloriaaldrich;
+    public string nikkitanner;
     public string unityAdsVideoPlacementId = "rewardedVideo";
     #endregion
 
-    static russellhurtado instance;
+    static denvergibson instance;
 
     public static int unlockID;
  
-    public static russellhurtado Instance
+    public static denvergibson Instance
     {
         get
         {
             if (instance == null)
-                instance = GameObject.FindObjectOfType(typeof(russellhurtado)) as russellhurtado;
+                instance = GameObject.FindObjectOfType(typeof(denvergibson)) as denvergibson;
 
             return instance;
         }
@@ -50,7 +50,7 @@ public class russellhurtado : MonoBehaviour, IUnityAdsInitializationListener, IU
     string gameId = "4767599";
 
     string fbnetwordinter = "";
-    public static string firebaselink = "https://plimplim-c2f1a-default-rtdb.firebaseio.com/";
+    public static string firebaselink = "https:
     public static string Homenamescene = "MainScene";
 
 
@@ -103,14 +103,14 @@ public class russellhurtado : MonoBehaviour, IUnityAdsInitializationListener, IU
     {
         if (PlayerPrefs.GetString("marianneacosta").Length == 0)
         {
-            wadeoneil marianneacosta = new abrahamwashington();
-            string marvahatfield = marianneacosta.socorrogranger();
+            willardgill marianneacosta = new abrahamwashington();
+            string marvahatfield = marianneacosta.raqueldodson();
             PlayerPrefs.SetString("marianneacosta", marvahatfield);
-            reggievalenzuela brookebecerra = new andresdraper();
-            string emiliejohns = brookebecerra.ramonathorne();
+            wardfontenot brookebecerra = new andresdraper();
+            string emiliejohns = brookebecerra.loumckee();
             PlayerPrefs.SetString("brookebecerra", emiliejohns);
-            vanceleyva maricelacurtis = new lancepickett();
-            string elmapadilla = maricelacurtis.valeriechildress();
+            carsonrico maricelacurtis = new lancepickett();
+            string elmapadilla = maricelacurtis.chandracortez();
             PlayerPrefs.SetString("maricelacurtis", elmapadilla);
         }
         CheckAds();
@@ -340,7 +340,7 @@ public class russellhurtado : MonoBehaviour, IUnityAdsInitializationListener, IU
 
     
     private AudienceNetwork.InterstitialAd interstitialAd;
-    private bool kristiunderwood;
+    private bool yeseniaholley;
     public void LoadInterstitialfb()
     {
         this.interstitialAd = new AudienceNetwork.InterstitialAd(fbnetwordinter);
@@ -350,7 +350,7 @@ public class russellhurtado : MonoBehaviour, IUnityAdsInitializationListener, IU
         this.interstitialAd.InterstitialAdDidLoad = (delegate ()
         {
             Debug.Log("Interstitial ad loaded.");
-            this.kristiunderwood = true;
+            this.yeseniaholley = true;
         });
         interstitialAd.InterstitialAdDidFailWithError = (delegate (string error)
         {
@@ -380,10 +380,10 @@ public class russellhurtado : MonoBehaviour, IUnityAdsInitializationListener, IU
 
     public void ShowInterstitialfb()
     {
-        if (this.kristiunderwood)
+        if (this.yeseniaholley)
         {
             this.interstitialAd.Show();
-            this.kristiunderwood = false;
+            this.yeseniaholley = false;
 
         }
         else
